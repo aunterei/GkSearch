@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="/styles/style.css" />
+  </head>
+  <body>
+    <div class="main__container">
+      <h1>GK Search</h1>
+
+      <div class="form">
+        <div class="websites__selection">
+          <div class="websites__selection--website selected" data-name="G2A">
+            <div class="website--logo">
+              <img src="/assets/logos/logo_g2a_white.svg" alt="G2A Logo" />
+            </div>
+            <h2>G2A</h2>
+          </div>
+
+          <div
+            class="websites__selection--website selected"
+            data-name="InstantGaming"
+          >
+            <div class="website--logo">
+              <img
+                src="/assets/logos/logo_instant_gaming.ico"
+                alt="InstantGaming Logo"
+              />
+            </div>
+            <h2>Instant Gaming</h2>
+          </div>
+
+          <div
+            class="websites__selection--website selected"
+            data-name="Kinguin"
+          >
+            <div class="website--logo">
+              <img src="/assets/logos/logo_kinguin.svg" alt="Kinguin Logo" />
+            </div>
+            <h2>Kinguin</h2>
+          </div>
+
+          <div class="websites__selection--website selected" data-name="Gamivo">
+            <div class="website--logo">
+              <img src="/assets/logos/logo_gamivo.svg" alt="Gamivo Logo" />
+            </div>
+            <h2>Gamivo</h2>
+          </div>
+        </div>
+
+        <div class="form--input">
+          <input
+            class="form--input__customInput"
+            type="text"
+            placeholder="Enter the game title"
+            id="searchedGame"
+          />
+          <span class="focus-border"></span>
+        </div>
+      </div>
+
+      <button id="searchButton">Search</button>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>
